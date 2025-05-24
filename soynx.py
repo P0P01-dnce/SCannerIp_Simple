@@ -13,7 +13,6 @@ def ingreso():
                 print("----------------------------------------------------\n")
                 print(f"|[+]Puerto {p} abierto para la direccion {ip_capture} |")
                 print("------------------------------------------------------")
-                break
 if __name__ == "__main__":
     try:
         while True:

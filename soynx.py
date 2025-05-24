@@ -6,7 +6,6 @@ def scanner(ip , port):
     if resp and resp.haslayer(TCP) and resp.getlayer(TCP).flags == 0x12:
         return True
     return False
-#def proxy_changes()
 def ingreso():
         ip_capture = input("[Enter ip]>")
         for p in range(20,1025):
